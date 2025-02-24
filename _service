@@ -1,0 +1,8 @@
+<services>
+  <service name="download_files" mode="trylocal" />
+  <service name="verify_file">
+    <param name="file">warewulf-4.6.0rc2.tar.gz</param>
+    <param name="verifier">sha256</param>
+    <param name="checksum">ea63b14cee8d356b66327b659dbf95637d1d3a88563b0c0c2b25bc32cdc216ed</param>
+  </service>
+</services>
